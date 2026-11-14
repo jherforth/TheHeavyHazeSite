@@ -3,13 +3,13 @@
 Website for The Heavy Haze, a stoner doom project. It's a static site with no build step: open `index.html` or host it on GitHub Pages.
 
 ## Structure
-- `index.html`: page content (sections: Gospel/about, Hymnal/music, Pilgrimage/shows, Relics/gallery, Confession/contact)
+- `index.html`: page content (sections: About, Music, Live, Images, Contact)
 - `css/style.css`: styles; the colour palette lives in `:root` at the top
-- `js/main.js`: rose window, drifting smoke, scroll reveal, mobile menu
-- `assets/`: favicon; put photos in `assets/img/`
+- `js/main.js`: drifting smoke (stirred by the cursor), scroll reveal, mobile menu
+- `assets/`: favicon and photos (`assets/img/`)
 
 ## To fill in
-- Tracklist, Bandcamp/Spotify links (`#hymnal`)
-- Show dates: copy the `<li class="show">` block (`#pilgrimage`)
-- Gallery: replace the SVG placeholders in `.relic` figures with `<img src="assets/img/...">`
+- Bandcamp/Spotify links (`#music`)
+- Show dates: copy the `<li class="show">` block (`#live`)
+- Gallery: add more `<figure class="arch"><img ...></figure>` entries (`#images`)
 - Contact email (`mailto:booking@example.com`)
