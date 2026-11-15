@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Heavy Haze — Stoner Doom</title>
+  <meta name="description" content="The Heavy Haze — stoner doom. Slow, heavy, and drowned in smoke.">
+  <meta property="og:title" content="The Heavy Haze">
+  <meta property="og:description" content="Doom. Slow, heavy, and drowned in incense.">
+  <meta property="og:image" content="assets/img/procession.webp">
+  <meta name="theme-color" content="#050505">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Cinzel:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="smoke" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a href="#top" class="wordmark">The Heavy Haze</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="site-nav">
+      <a href="#about">About</a>
+      <a href="#music">Music</a>
+      <a href="#live">Live</a>
+      <a href="#images">Images</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <h1 class="band-name">The Heavy Haze</h1>
+        <p class="hero-tag">Incense and Doom</p>
+      </div>
+      <a href="#about" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+    </section>
+
+    <section id="about" class="section about">
+      <p class="label">I</p>
+      <h2 class="section-title">Out of the Haze</h2>
+      <div class="prose">
+        <p class="lead">
+          Slow riffs that hang in the air like smoke in an old stone crypt.
+        </p>
+        <p>
+          The Heavy Haze plays incense doom at a crawl: fuzz thick enough to lose yourself in,
+          drums that toll more than they keep time, and songs that build like a ritual,
+          one heavy step after another.
+        </p>
+      </div>
+    </section>
+
+    <section id="music" class="section music">
+      <p class="label">II</p>
+      <h2 class="section-title">Listen</h2>
+      <div class="release">
+        <figure class="release-art">
+          <img src="assets/img/procession.webp" alt="The Heavy Haze cover art: a robed figure walks toward a candlelit altar through drifting smoke" loading="lazy">
+        </figure>
+        <div class="release-info">
+          <p class="kicker">Debut release</p>
+          <h3>Coming Soon</h3>
+          <p>The first recordings are on their way. Follow along to hear them first.</p>
+          <!-- Replace # with your links, or swap in a Bandcamp embed -->
+          <div class="links">
+            <a href="#" class="btn">Bandcamp</a>
+            <a href="#" class="btn">Spotify</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="live" class="section live">
+      <p class="label">III</p>
+      <h2 class="section-title">Live</h2>
+      <ul class="shows">
+        <!-- Copy this <li> for each show -->
+        <li class="show">
+          <time>TBA</time>
+          <span class="venue">Dates to be announced</span>
+          <a href="https://www.instagram.com/theheavyhaze" target="_blank" rel="noopener" class="btn small">Follow</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="images" class="section images">
+      <p class="label">IV</p>
+      <h2 class="section-title">Images</h2>
+      <div class="gallery">
+        <figure class="arch"><img src="assets/img/smoke-portrait.webp" alt="Black and white portrait half hidden behind a cloud of smoke" loading="lazy"></figure>
+        <figure class="arch"><img src="assets/img/censer.webp" alt="An ornate brass censer hanging from chains in a dark wooden room" loading="lazy"></figure>
+        <figure class="arch"><img class="left" src="assets/img/procession.webp" alt="A robed figure in a smoke-filled aisle facing an altar" loading="lazy"></figure>
+      </div>
+      <a href="https://www.instagram.com/theheavyhaze" class="btn" target="_blank" rel="noopener">@theheavyhaze</a>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="label">V</p>
+      <h2 class="section-title">Contact</h2>
+      <p class="lead">Booking, press, and everything else.</p>
+      <!-- Replace with your contact address -->
+      <a class="btn" href="mailto:booking@example.com">Get in Touch</a>
+      <ul class="socials">
+        <li><a href="https://www.instagram.com/theheavyhaze" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="#">Bandcamp</a></li>
+        <li><a href="#">YouTube</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-mark">The Heavy Haze</p>
+    <p class="small">&copy; <span id="year"></span> &middot; Ex fumo</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
